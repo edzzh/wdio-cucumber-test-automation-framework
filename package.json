@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio-cucumber-saucelabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "4.14.4"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cucumber": "^5.1.0",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-multiple-cucumber-html-reporter": "^1.1.0",
+    "wdio-sauce-service": "^0.4.14",
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
+}
